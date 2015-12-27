@@ -6,6 +6,8 @@ X_test <- read.table("~/UCI HAR Dataset/test/X_test.txt",col.names = vars,quote=
 X_train <- read.table("~/UCI HAR Dataset/train/X_train.txt",col.names = vars ,quote="\"", comment.char="")
 rbind(X_train,X_test)->X_bind
 
+library(dplyr)
+
 select(.data = X_bind,contains("std",ignore.case=TRUE))->X_sd
 select(.data = X_bind,contains("mean",ignore.case=TRUE))->X_means
 cbind(X_means,X_sd)->X_msd
