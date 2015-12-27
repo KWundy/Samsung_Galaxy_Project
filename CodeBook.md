@@ -30,7 +30,7 @@ fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are: 
 
-#The first 53 entries# of the averages tidy data are the correspond to the mean labels:
+_The first 53 entries_ of the averages tidy data are the correspond to the mean labels:
 [1] "X.tBodyAcc.mean...X."                    "X.tBodyAcc.mean...Y."                   
  [3] "X.tBodyAcc.mean...Z."                    "X.tGravityAcc.mean...X."                
  [5] "X.tGravityAcc.mean...Y."                 "X.tGravityAcc.mean...Z."                
@@ -60,7 +60,7 @@ The set of variables that were estimated from these signals are:
 [53] "X.angle.Z.gravityMean.."                
 std(): Standard deviation
 
-#the last 33 entries# of the average tidy data correspond to the standard deviation labels:
+_The last 33 entries_ of the average tidy data correspond to the standard deviation labels:
 
  [1] "X.tBodyAcc.std...X."           "X.tBodyAcc.std...Y."           "X.tBodyAcc.std...Z."          
  [4] "X.tGravityAcc.std...X."        "X.tGravityAcc.std...Y."        "X.tGravityAcc.std...Z."       
